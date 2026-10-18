@@ -1,4 +1,3 @@
-
 from pathlib import Path
 from io import BytesIO
 import base64
@@ -49,14 +48,16 @@ FUNCTIONS = {
 
     "04 · CPU Scheduling": {
         "Preemptive": [
-            "1. Round Robin",
+            "1. Round Robin (RR)",
             "2. Shortest Remaining Time First (SRTF)",
             "3. Preemptive Priority Scheduling",
+            "4. Multilevel Feedback Queue",
         ],
         "Non-Preemptive": [
             "1. First Come, First Served (FCFS)",
-            "2. Shortest Job First (SJF)",
+            "2. SJF + Prediction of next burst of SJF",
             "3. Non-Preemptive Priority Scheduling",
+            "4. Multilevel Queues",
         ],
     },
 
